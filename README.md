@@ -1,3 +1,5 @@
-`run with /bin/bash -l
+```
+run with /bin/bash -l
 
-bash rubys/1.9.3-p484`
+bash rubys/1.9.3-p484
+```
