@@ -1,4 +1,4 @@
-DOCKER-VERSION 0.7.1
+DOCKER-VERSION 0.7.6
  
  
 FROM pandrew/ubuntu-lts
@@ -16,4 +16,3 @@ RUN git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/rub
 ENV PATH ~/.rbenv/shims:~/.rbenv/bin:$PATH
 RUN echo 'eval "$(rbenv init -)"' >  ~/.bash_profile
 
-ADD 1.9.3-p484 /rubys/ 
